@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+python-multipart
+websockets
+fpdf2
+twilio
+requests
+httpx
