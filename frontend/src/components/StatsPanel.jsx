@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BarChart3, ShieldAlert, CheckCircle2, Activity } from 'lucide-react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api';
+const API_URL = '/api';
 
 const StatsPanel = () => {
     const [stats, setStats] = useState({ total_incidents: 0, critical_active: 0, resolved: 0 });

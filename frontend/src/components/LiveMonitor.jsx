@@ -3,7 +3,7 @@ import { Camera, Zap, Maximize2, Activity } from 'lucide-react';
 import axios from 'axios';
 import clsx from 'clsx';
 
-const API_URL = 'http://localhost:8000/api';
+const API_URL = '/api';
 
 const LiveMonitor = () => {
     const [feeds, setFeeds] = useState([]);

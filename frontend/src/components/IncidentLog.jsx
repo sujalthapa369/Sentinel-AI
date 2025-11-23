@@ -3,7 +3,7 @@ import { AlertTriangle, Check, X, Clock, MapPin, ChevronRight } from 'lucide-rea
 import axios from 'axios';
 import clsx from 'clsx';
 
-const API_URL = 'http://localhost:8000/api';
+const API_URL = '/api';
 
 const IncidentLog = () => {
     const [incidents, setIncidents] = useState([]);
